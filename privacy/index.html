@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy policy — Tensile</title>
+<meta name="description" content="Tensile collects nothing: no accounts, no servers, no analytics. Your training stays on your devices and in your own iCloud.">
+<link rel="icon" href="/favicon.png">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="stylesheet" href="/style.css">
+</head>
+<body>
+<header class="wrap top">
+  <a class="brand" href="/"><img src="/icon.png" alt="">Tensile</a>
+  <nav class="nav"><a href="/support/">Support</a><a href="/privacy/" aria-current="page">Privacy</a></nav>
+</header>
+
+<main class="wrap doc">
+  <span class="eyebrow">Legal</span>
+  <h1>Privacy policy</h1>
+  <p class="updated">Last updated: 16 October 2026</p>
+  <p>Tensile is a strength-training log. In short: <strong>your data stays on your devices and in your own iCloud, and we don't collect any of it.</strong></p>
+  <h2>What we collect</h2>
+  <p>Nothing. Tensile has no accounts, no servers, no analytics, no advertising, and no third-party SDKs. The developer never receives your workouts, measurements or health data.</p>
+  <h2>What's stored on your device</h2>
+  <p>Your workouts, templates, exercises, body measurements and settings are stored on your iPhone, in the app's private storage, and are included in your normal device backups. Webhook addresses and signing secrets are kept in the iOS Keychain.</p>
+  <h2>iCloud sync</h2>
+  <p>With <strong>Settings → iCloud → Sync with iCloud</strong> on (the default), your workouts, templates, exercises, goals and the measurements you log in Tensile sync between your devices through your private iCloud database. Apple stores that data under your Apple Account, under Apple's privacy policy. The developer has no access to it. Nothing read from Apple Health, such as heart rate, energy or readings from a smart scale, is ever stored in iCloud. Apple Health syncs that itself. Turn the switch off to keep everything on the device.</p>
+  <h2>Apple Health</h2>
+  <p>If you allow it, Tensile:</p>
+  <ul><li><strong>reads</strong> heart rate, active energy, body measurements, heart-rate variability, resting heart rate and sleep, to show session stats and a recovery-readiness card;</li><li><strong>writes</strong> your strength workouts and the body measurements you log.</li></ul>
+  <p>Health data is processed on your device. It's never used for advertising, never sold, and never sent anywhere by Tensile. The one exception is a webhook you configure yourself, and only if you turn on "Heart rate &amp; energy" (see below). You can change Health permissions at any time in the Settings app → Health → Data Access &amp; Devices.</p>
+  <h2>Integrations (optional)</h2>
+  <p>If you turn on <strong>Settings → Advanced → Webhooks</strong>, Tensile sends workout events from your iPhone directly to the address you enter, such as your own Home Assistant or automation service. That data goes only to that address, under that service's own privacy terms. It's off by default. You choose what's included, and heart-rate data is excluded unless you turn it on.</p>
+  <h2>On-device intelligence</h2>
+  <p>Goal coaching uses Apple's on-device foundation model where it's available. Prompts and responses never leave your iPhone.</p>
+  <h2>Exports</h2>
+  <p>When you export a CSV or JSON backup, the file goes wherever you choose to share it.</p>
+  <h2>Children</h2>
+  <p>Tensile isn't directed at children under 13.</p>
+  <h2>Contact</h2>
+  <p>Questions: email <a href="mailto:support@tensilelift.app">support@tensilelift.app</a>. This policy is published at <a href="https://tensilelift.app/privacy/">tensilelift.app/privacy</a>.</p>
+</main>
+
+<footer>
+  <div class="wrap">
+    <span>Tensile</span>
+    <nav><a href="/">Home</a><a href="/support/">Support</a></nav>
+  </div>
+</footer>
+</body>
+</html>
